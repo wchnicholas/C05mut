@@ -1,5 +1,5 @@
-##YEAST DISPLAY SCREENING FOR C05 VARIANTS
-###FILES
+## YEAST DISPLAY SCREENING FOR C05 VARIANTS
+### FILES
 * All sequencing raw reads, which can be downloaded from NIH SRA database [PRJNA326694](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA326694), should placed in fastq/ folder:
   * Input library: Wu-1\_S1\_L001\_R1\_001.fastq and Wu-1\_S1\_L001\_R2\_001.fastq
   * H1 Round 1 library: Wu-1\_S2\_L001\_R1\_001.fastq and Wu-1\_S2\_L001\_R2\_001.fastq
@@ -15,7 +15,7 @@
 * data/VariantFreqTable.tsv: Frequency of each variant in each library. Units = per million.
 * data/AAFreqTable.tsv: Frequency of each amino acid at each residue in each library. 
 
-###ANALYSIS PEPLINE
+### ANALYSIS PEPLINE
 * script/C05\_Read2Count.py
   * Input file: fastq/Wu-1\_S\*\_L001\_R1\_001.fastq
   * Output file: data/\*.count
@@ -26,7 +26,7 @@
   * Input file: data/VariantFreqTable.tsv
   * Output file: data/AAFreqTable.tsv
 
-###PLOTTING
+### PLOTTING
 * script/C05\_plot\_aaheatmap.R: Plot the frequency of each amino acid at each residue in each library as heatmaps
   * Input file: data/AAFreqTable.tsv
   * Output file: graph/HM\*.png
