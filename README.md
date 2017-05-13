@@ -15,7 +15,7 @@
 * data/VariantFreqTable.tsv: Frequency of each variant in each library. Units = per million.
 * data/AAFreqTable.tsv: Frequency of each amino acid at each residue in each library. 
 
-### ANALYSIS PEPLINE
+### ANALYSIS PIPELINE
 * script/C05\_Read2Count.py
   * Input file: fastq/Wu-1\_S\*\_L001\_R1\_001.fastq
   * Output file: data/\*.count
