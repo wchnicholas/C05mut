@@ -1,4 +1,6 @@
 ## YEAST DISPLAY SCREENING FOR C05 VARIANTS
+This README describes the scripts used for the analyses in:  
+[In vitro evolution of an influenza broadly neutralizing antibody is modulated by hemagglutinin receptor specificity](http://www.nature.com/articles/ncomms15371)
 ### FILES
 * All sequencing raw reads, which can be downloaded from NIH SRA database [PRJNA326694](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA326694), should placed in fastq/ folder:
   * Input library: Wu-1\_S1\_L001\_R1\_001.fastq and Wu-1\_S1\_L001\_R2\_001.fastq
